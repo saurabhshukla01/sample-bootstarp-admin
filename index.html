@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <base href="./">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <title>Bill Prudigital</title>
+      <link rel="icon" type="image/ico" href="./img/pru_logo1.png" sizes="any" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+      <header class="app-header navbar">
+         <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <a class="navbar-brand" href="#">
+         <img class="navbar-brand-full" src="img/brand/pru_logo.gif" width="110" height="52" alt="CoreUI Logo">
+         <img class="navbar-brand-minimized" src="img/brand/pru_logo1.png" width="47" height="44" alt="CoreUI Logo">
+         </a>
+         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <ul class="nav navbar-nav d-md-down-none">
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Users</a>
+            </li>
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Settings</a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+               <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+               </a>
+               <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">
+                  <i class="fa fa-shield"></i> Profile Name</a>
+                  <a class="dropdown-item" href="#">
+                  <i class="fa fa-lock"></i> Logout</a>
+               </div>
+            </li>
+         </ul>
+      </header>
+      <div class="app-body">
+         <div class="sidebar">
+            <nav class="sidebar-nav">
+               <ul class="nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">
+                     <i class="fa fa-tachometer nav-icon" aria-hidden="true"></i> Dashboard
+                     </a>
+                  </li>
+                  <li class="nav-item nav-dropdown">
+                     <a class="nav-link nav-dropdown-toggle" href="#">
+                     <i class="fa fa-bar-chart nav-icon" aria-hidden="true"></i> Sale</a>
+                     <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-file-text-o nav-icon" aria-hidden="true"></i> Invoice List</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-plus-square nav-icon" aria-hidden="true"></i> Create Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-search nav-icon" aria-hidden="true"></i>  Find Sale Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-bell-o nav-icon" aria-hidden="true"></i> Payment Reminder</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="nav-item nav-dropdown">
+                     <a class="nav-link nav-dropdown-toggle" href="#">
+                     <i class="fa fa-credit-card nav-icon" aria-hidden="true"></i> Purchase</a>
+                     <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-list nav-icon" aria-hidden="true"></i> Purchase List</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-plus-circle nav-icon" aria-hidden="true"></i> Create Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-file-text-o nav-icon" aria-hidden="true"></i> Find Purchase Invoice</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="nav-item nav-dropdown">
+                     <a class="nav-link nav-dropdown-toggle" href="#">
+                     <i class="fa fa-ellipsis-v nav-icon" aria-hidden="true"></i> Other Link</a>
+                     <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                           <a class="nav-link" href="">
+                           <i class="fa fa-inr nav-icon" aria-hidden="true"></i> GST</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="divider"></li>
+               </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+         </div>
+         <main class="main">
+            <div class="container-fluid">
+               <div class="animated fadeIn">
+                  <div class="row dashboard-anchor pt-3">
+                     <div class="col-sm-6 col-lg-3">
+                        <div class="card text-white bg-primary">
+                           <div class="card-body text-center">
+                              <a href="">
+                                 <div class="text-value"><i class="fa fa-user-circle" aria-hidden="true"></i>
+                                    <span class="ml-2 small">Add Client</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /.col-->
+                     <div class="col-sm-6 col-lg-3">
+                        <div class="card text-white bg-info">
+                           <div class="card-body text-center">
+                              <a href="">
+                                 <div class="text-value"><i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span class="ml-2 small">Add SaleCategory</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /.col-->
+                     <div class="col-sm-6 col-lg-3">
+                        <div class="card text-white bg-warning">
+                           <div class="card-body text-center">
+                              <a href="">
+                                 <div class="text-value"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    <span class="ml-2 small">Add PurchaseCategory</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /.col-->
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        Line Chart
+                        <div class="card-header-actions">
+                        </div>
+                     </div>
+                     <div class="card-body">
+                        <div class="chart-wrapper">
+                           <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                              <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                 <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>
+                              </div>
+                              <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                 <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
+                              </div>
+                           </div>
+                           <canvas id="canvas-1" width="722" height="120" class="chartjs-render-monitor" style="display: block; height: 288px; width: 578px;"></canvas>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /.row-->
+                  <div class="card">
+                     <div class="card-body">
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <h4 class="card-title mb-0">Payment Pending</h4>
+                              <div class="small text-muted">&nbsp;</div>
+                           </div>
+                           <!-- /.col-->
+                           <div class="col-lg-12">
+                              <table class="table table-responsive-sm table-bordered">
+                                 <thead>
+                                    <tr>
+                                       <th><input type="checkbox" name="" value="" /></th>
+                                       <th>InvId</th>
+                                       <th>Product</th>
+                                       <th>BillDate</th>
+                                       <th>DueDate</th>
+                                       <th>Total</th>
+                                       <th>Paid</th>
+                                       <th>Remark</th>
+                                       <th>Invoice</th>
+                                       <th>Client</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>InvId</td>
+                                       <td>Product</td>
+                                       <td>BillDate</td>
+                                       <td>DueDate</td>
+                                       <td>Total</td>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>Remark</td>
+                                       <td><a href="">Download</a></td>
+                                       <td>Client</td>
+                                    </tr>
+                                    <tr>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>InvId</td>
+                                       <td>Product</td>
+                                       <td>BillDate</td>
+                                       <td>DueDate</td>
+                                       <td>Total</td>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>Remark</td>
+                                       <td><a href="">Download</a></td>
+                                       <td>Client</td>
+                                    </tr>
+                                    <tr>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>InvId</td>
+                                       <td>Product</td>
+                                       <td>BillDate</td>
+                                       <td>DueDate</td>
+                                       <td>Total</td>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>Remark</td>
+                                       <td><a href="">Download</a></td>
+                                       <td>Client</td>
+                                    </tr>
+                                    <tr>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>InvId</td>
+                                       <td>Product</td>
+                                       <td>BillDate</td>
+                                       <td>DueDate</td>
+                                       <td>Total</td>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>Remark</td>
+                                       <td><a href="">Download</a></td>
+                                       <td>Client</td>
+                                    </tr>
+                                    <tr>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>InvId</td>
+                                       <td>Product</td>
+                                       <td>BillDate</td>
+                                       <td>DueDate</td>
+                                       <td>Total</td>
+                                       <td><input type="checkbox" name="" value="" /></td>
+                                       <td>Remark</td>
+                                       <td><a href="">Download</a></td>
+                                       <td>Client</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <ul class="pagination">
+                                 <li class="page-item">
+                                    <a class="page-link" href="#">Prev</a>
+                                 </li>
+                                 <li class="page-item active">
+                                    <a class="page-link" href="#">1</a>
+                                 </li>
+                                 <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                 </li>
+                                 <li class="page-item">
+                                    <a class="page-link" href="#">3</a>
+                                 </li>
+                                 <li class="page-item">
+                                    <a class="page-link" href="#">4</a>
+                                 </li>
+                                 <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <!-- /.col-->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /.card-->
+                  <!-- /.row-->
+               </div>
+            </div>
+         </main>
+      </div>
+      <footer class="app-footer">
+         <div>Copyright © 2019
+            <a href=""> Prudigital.</a></span>
+         </div>
+         <div class="ml-auto">
+            <span>Powered by</span>
+            <a href="#">Pru Digital</a>
+         </div>
+      </footer>
+      <!-- CoreUI and necessary plugins-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/pace.min.js"></script>
+      <script src="js/perfect-scrollbar.min.js"></script>
+      <script src="js/coreui.min.js"></script>
+      <!-- Plugins and scripts required by this view-->
+      <script src="js/Chart.min.js"></script>
+      <script src="js/charts.js"></script>
+      <script src="js/custom-tooltips.min.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+         $('#ui-view').ajaxLoad();
+         $(document).ajaxComplete(function() {
+           Pace.restart()
+         });
+      </script>
+   </body>
+</html>
